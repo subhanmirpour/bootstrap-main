@@ -1,0 +1,47 @@
+@@include('header.htm')
+@@include('sidenav.htm',{'home':'', 'about':'', 'contact':'', 'pages':'active', 'home2':'', 'category':'', 'postDetails':'active', 'pnp':''})
+
+<div class="main-content">
+    @@include('mobile-nav.htm')
+
+    <div class="container py-4 my-5">
+        @@include('search-form.htm')
+        
+        <div class="row justify-content-between">
+            <div class="col-lg-10">
+                <img class="img-fluid" src="images/post/ev-man.jpg" alt="">
+                <h1 class="text-white add-letter-space mt-4">Manufacturing Automation Laboratory (MAL) at UBC</h1>
+                <ul class="post-meta mt-3 mb-4">
+                    <li class="d-inline-block mr-3">
+                        <span class="fas fa-clock text-primary"></span>
+                        <a class="ml-1" href="#">Research Focus</a>
+                    </li>
+                    <li class="d-inline-block">
+                        <span class="fas fa-list-alt text-primary"></span>
+                        <a class="ml-1" href="#">Manufacturing Automation</a>
+                    </li>
+                </ul>
+
+                <p>The Manufacturing Automation Laboratory (MAL) at the University of British Columbia (UBC) is a globally recognized center for research in machining and automation technology. The lab conducts cutting-edge research in areas such as micro-machining, CNC machine tools, intelligent machining, and spindle design. Their high-impact academic articles are among the most-cited in the field of manufacturing.</p>
+
+                <p>At MAL, advanced tools and facilities, including CNC machining centers, ultra-high-speed micro-machining equipment, and piezo actuators, enable them to develop industry-leading technologies. The lab works closely with over 200 leading companies and universities across North and South America, Asia, and Europe, collaborating on joint research projects and advancing the field of intelligent manufacturing.</p>
+
+                <p>For stakeholders and investors, the work at MAL is highly relevant as the lab focuses on developing practical solutions for real-world manufacturing challenges. With expertise in automation, precision machining, and sensor-assisted intelligent machining, MAL is helping drive the adoption of cutting-edge technologies that are essential for the future of industries like automotive, aerospace, and manufacturing at large.</p>
+
+                <div class="blockquote bg-dark my-5">
+                    <p class="blockquote-text pl-2">The future of manufacturing is smart, automated, and precision-driven. Innovations at UBC’s MAL are shaping that future.</p>
+                    <span class="blockquote-footer text-white h4 mt-3">UBC Manufacturing Automation Laboratory</span>
+                </div>
+
+                <div class="widget">
+                    <h1 class="widget-title text-white d-inline-block mb-4">Read More About MAL Research</h1>
+                    <a href="https://mal.mech.ubc.ca/" target="_blank" class="btn btn-primary">Read More <img src="images/arrow-right.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    @@include('footer-block.htm')
+</div>
+
+@@include('footer.htm')
